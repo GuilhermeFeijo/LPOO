@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a35242d4-799a-4ca7-92e7-63c322eb5fe6" name="Changes" comment="feat: finalizado parte 2 do objetivo 1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/AlunoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/AlunoController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="C:\Program Files\Git\bin\git.exe" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="528ba0ab-1a0b-4da4-bb4d-1461a8198343" />
+        <option name="url" value="https://github.com/GuilhermeFeijo/LPOO_Objetivo1.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2N3zyJCXzZtP7WJ9EgqyNRJ8zKl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/guigu/IdeaProjects/LPOO_Exercicio2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a35242d4-799a-4ca7-92e7-63c322eb5fe6" name="Changes" comment="" />
+      <created>1678907812546</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678907812546</updated>
+      <workItem from="1678907813934" duration="2641000" />
+      <workItem from="1678929550290" duration="3254000" />
+      <workItem from="1678965617572" duration="642000" />
+      <workItem from="1678966497618" duration="567000" />
+      <workItem from="1678968024265" duration="329000" />
+      <workItem from="1678968369041" duration="1021000" />
+      <workItem from="1678972494904" duration="1811000" />
+      <workItem from="1678974336489" duration="66000" />
+      <workItem from="1678976035468" duration="1585000" />
+      <workItem from="1679399879232" duration="1897000" />
+      <workItem from="1679491147513" duration="2349000" />
+      <workItem from="1679499035037" duration="73000" />
+    </task>
+    <task id="LOCAL-00001" summary="criado aluno">
+      <created>1678909905286</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678909905286</updated>
+    </task>
+    <task id="LOCAL-00002" summary="criado aluno">
+      <created>1678909976798</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678909976798</updated>
+    </task>
+    <task id="LOCAL-00003" summary="criado constructor">
+      <created>1678910165450</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678910165450</updated>
+    </task>
+    <task id="LOCAL-00004" summary="criado constructor">
+      <created>1678910436020</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678910436020</updated>
+    </task>
+    <task id="LOCAL-00005" summary="primeira alteração aluno controller">
+      <created>1678929898038</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678929898038</updated>
+    </task>
+    <task id="LOCAL-00006" summary="adicionado construtor parametrizado parcial">
+      <created>1678930381368</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678930381368</updated>
+    </task>
+    <task id="LOCAL-00007" summary="adicionado construtor parametrizado parcial">
+      <created>1678930797907</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678930797907</updated>
+    </task>
+    <task id="LOCAL-00008" summary="adicionado construtor parametrizado parcial">
+      <created>1678931835257</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678931835257</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1.b finalizada">
+      <created>1678932229104</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678932229104</updated>
+    </task>
+    <task id="LOCAL-00010" summary="começado 2">
+      <created>1678973327162</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678973327162</updated>
+    </task>
+    <task id="LOCAL-00011" summary="começado 2">
+      <created>1678974116663</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678974116663</updated>
+    </task>
+    <task id="LOCAL-00012" summary="começado 2">
+      <created>1678974183200</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678974183200</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feito id=5">
+      <created>1678974248988</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678974248988</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feito id=5">
+      <created>1678974370152</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678974370152</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feito id=5">
+      <created>1678976107817</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678976107817</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="criado aluno" />
+    <MESSAGE value="criado constructor" />
+    <MESSAGE value="primeira alteração aluno controller" />
+    <MESSAGE value="adicionado construtor parametrizado parcial" />
+    <MESSAGE value="1.b finalizada" />
+    <MESSAGE value="começado 2" />
+    <MESSAGE value="feito id=5" />
+    <MESSAGE value="feat: finalizado parte 2 do objetivo 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: finalizado parte 2 do objetivo 1" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
