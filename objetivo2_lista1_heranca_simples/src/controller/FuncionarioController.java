@@ -7,6 +7,9 @@ import java.sql.SQLOutput;
 public class FuncionarioController {
 
     public static void main(String[] args){
+        //Abreviação da classe Util
+        Util u = new Util();
+
         //1.
         //Desenvolvedor
         Desenvolvedor d1 = new DesenvolvedorJunior();
@@ -23,6 +26,19 @@ public class FuncionarioController {
         System.out.println(g1);
         System.out.println(g2);
 
-        Util.separador();
+        u.separador();
+
+        d1.setNome("Gabriel");
+        d1.setSalario(1950.00);
+        g1.setNome("Aline");
+        g1.setSalario(5700.00);
+
+        System.out.println("Após alteração dos objetos sem parâmetros:");
+        System.out.println(d1);
+        System.out.println(d2);
+        System.out.println(g1);
+        System.out.println(g2);
+
+        u.separador();
     }
 }
