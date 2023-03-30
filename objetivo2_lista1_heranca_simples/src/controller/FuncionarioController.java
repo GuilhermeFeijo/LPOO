@@ -2,6 +2,8 @@ package controller;
 
 import model.*;
 
+import java.sql.SQLOutput;
+
 public class FuncionarioController {
 
     public static void main(String[] args){
@@ -14,9 +16,13 @@ public class FuncionarioController {
         Gerente g1 = new GerenteDesenvolvimento();
         Gerente g2 = new GerenteGeral("Walter", 8930.00);
 
+        System.out.println("\nExercício 1:");
+        System.out.println("Primeiro print com construtores padrões:");
         System.out.println(d1);
         System.out.println(d2);
         System.out.println(g1);
         System.out.println(g2);
+
+        Util.separador();
     }
 }
