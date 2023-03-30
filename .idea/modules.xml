@@ -4,8 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/LPOO.iml" filepath="$PROJECT_DIR$/.idea/LPOO.iml" />
       <module fileurl="file://$PROJECT_DIR$/Objetivo1/Objetivo1.iml" filepath="$PROJECT_DIR$/Objetivo1/Objetivo1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/objetivo1_lista2/Objetivo1_Lista2.iml" filepath="$PROJECT_DIR$/objetivo1_lista2/Objetivo1_Lista2.iml" />
       <module fileurl="file://$PROJECT_DIR$/objetivo1_lista1/objetivo1_lista1.iml" filepath="$PROJECT_DIR$/objetivo1_lista1/objetivo1_lista1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/objetivo1_lista2/objetivo1_lista2.iml" filepath="$PROJECT_DIR$/objetivo1_lista2/objetivo1_lista2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/objetivo2_lista1_heranca_simples/objetivo2_lista1_heranca_simples.iml" filepath="$PROJECT_DIR$/objetivo2_lista1_heranca_simples/objetivo2_lista1_heranca_simples.iml" />
     </modules>
   </component>
 </project>
