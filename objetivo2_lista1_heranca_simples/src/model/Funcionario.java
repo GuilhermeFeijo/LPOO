@@ -30,4 +30,12 @@ public abstract class Funcionario {
     }
 
     public abstract double getBonus();
+
+    @Override
+    public String toString() {
+        return "Funcionario:{" +
+                "\nnome='" + nome +
+                "\nsalario=" + salario +
+                '}';
+    }
 }
