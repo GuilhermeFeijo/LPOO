@@ -15,6 +15,6 @@ public class DesenvolvedorPleno extends Desenvolvedor{
 
     @Override
     public String toString() {
-        return "DesenvolvedorPleno{} " + super.toString();
+        return "DesenvolvedorPleno: " + super.toString();
     }
 }

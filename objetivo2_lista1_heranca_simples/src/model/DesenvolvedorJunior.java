@@ -15,6 +15,6 @@ public class DesenvolvedorJunior extends Desenvolvedor{
 
     @Override
     public String toString() {
-        return "DesenvolvedorJunior{} " + super.toString();
+        return "DesenvolvedorJunior: " + super.toString();
     }
 }

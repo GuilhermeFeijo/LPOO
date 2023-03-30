@@ -17,6 +17,6 @@ public class GerenteGeral extends Gerente{
 
     @Override
     public String toString() {
-        return "GerenteGeral{} " + super.toString();
+        return "GerenteGeral:  " + super.toString();
     }
 }
