@@ -40,5 +40,11 @@ public class FuncionarioController {
         System.out.println(g2);
 
         u.separador();
+
+        //1.1
+        //Não foi possível, a classe funcionário é uma classe abstrata, sendo assim só é possível instanciar suas sub-classes.
+
+        //1.2
+        //Nas classes Gerente e Desenvolvedor, sempre as definições ficam nas classes de Modelo.
     }
 }
