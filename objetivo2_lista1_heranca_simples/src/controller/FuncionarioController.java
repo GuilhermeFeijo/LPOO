@@ -11,6 +11,7 @@ public class FuncionarioController {
 
     private static double total_salario_base = 0;
     private static double total_salario = 0;
+    private static double salario_bruto_trabalhador = 0;
 
     public static void main(String[] args){
         //Abreviação da classe Util
@@ -106,13 +107,34 @@ public class FuncionarioController {
             total_salario_base = total_salario_base + f.getSalario();
         });
 
-        //Impressão das folhas salariais totaisg com e sem bonus
+        //Impressão das folhas salariais totais com e sem bonus
         System.out.println("Folha Salarial da Empresa com Bônus: "+
                 NumberFormat.getCurrencyInstance().format(total_salario)+
                 "\nFolha Salarial da Empresa sem Bônus: "+
                 NumberFormat.getCurrencyInstance().format(total_salario_base));
 
+        u.separador();
 
+        //Calcule e imprima o salário bruto de cada trabalhador e o seu bonus
+        System.out.println("Impressão dos funcionários com indicação do Bônus e Salário Bruto");
+        funcionarios.forEach(f -> {
+            salario_bruto_trabalhador = f.getSalario() + f.getBonus();
+            System.out.println(f.getNome()+"\nBônus Salarial: "+f.getBonus()+"\nSalário Bruto: "+salario_bruto_trabalhador+"\n");
+        });
 
+        u.separador();
+
+        //calculo e Impressão da Folha com reajuste
+
+        /* ESTE CODIGO APLICA O AUMENTO AOS TRABALHADORES, PORÉM O EXERCÍCIO APENAS PEDE UMA SIMULAÇÃO!
+        total_salario = 0;
+        funcionarios.forEach(f -> {
+            f.setSalario(f.getSalario()*1.05);
+            total_salario = total_salario + (f.getSalario() + f.getBonus());
+        });*/
+
+        total_salario = total_salario * 1.05;
+        System.out.println("Folha Salarial da Empresa com Reajuste: "+
+                NumberFormat.getCurrencyInstance().format(total_salario));
     }
 }
