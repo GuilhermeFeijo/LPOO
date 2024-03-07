@@ -67,11 +67,11 @@ public class ProdutoController {
         System.out.println("\nList\n" + produtosList);
 
         // e o objeto de id=3 de cada coleção
-        for(Produto produto : produtosList){
+        produtosList.forEach(produto -> {
             if(produto.getId() == 3){
                 System.out.print("\n Produto de id 3 no List\n" + produto + "\n");
             }
-        }
+        });
 
         produtosList.sort(Comparator.comparing(Produto::getId).reversed());
         System.out.println("\nOrdenando de forma decrescente\n" + produtosList);

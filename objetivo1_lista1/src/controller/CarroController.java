@@ -62,11 +62,11 @@ public class CarroController {
         System.out.println("\nList\n" + carrosList);
 
         // e o objeto de id=3 de cada coleção
-        for(Carro carro : carrosList){
+        carrosList.forEach(carro -> {
             if(carro.getId() == 3){
                 System.out.print("\n Carro de id 3 no List\n" + carro + "\n");
             }
-        }
+        });
 
         carrosList.sort(Comparator.comparing(Carro::getId).reversed());
         System.out.println("\nOrdenando de forma decrescente\n" + carrosList);

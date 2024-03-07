@@ -56,11 +56,11 @@ public class ContaController {
         System.out.println("\nList\n" + contasList);
 
         // e o objeto de id=3 de cada coleção
-        for(Conta conta : contasList){
+        contasList.forEach(conta -> {
             if(conta.getId() == 3){
                 System.out.print("\n Conta de id 3 no List\n" + conta + "\n");
             }
-        }
+        });
 
         contasList.sort(Comparator.comparing(Conta::getId).reversed());
         System.out.println("\nOrdenando de forma decrescente\n" + contasList);

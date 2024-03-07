@@ -58,11 +58,11 @@ public class FuncionarioController {
         System.out.println("\nList\n" + funcionariosList);
 
         // e o objeto de id=3 de cada coleção
-        for(Funcionario funcionario : funcionariosList){
+        funcionariosList.forEach(funcionario -> {
             if(funcionario.getId() == 3){
                 System.out.print("\n Funcionario de id 3 no List\n" + funcionario + "\n");
             }
-        }
+        });
 
         funcionariosList.sort(Comparator.comparing(Funcionario::getId).reversed());
         System.out.println("\nOrdenando de forma decrescente\n" + funcionariosList);
