@@ -11,7 +11,7 @@ public class CarroController {
         //uma com o construtor padrão da classe, outra com um construtor parametrizado que
         //receba como argumento todos os atributos contidos na classe
         Carro carro1 = new Carro();
-        Carro carro2 = new Carro(2, "ford", "fiesta", 1999);
+        Carro carro2 = new Carro(2L, "ford", "fiesta", 1999);
 
 
         //Depois de instanciados os objetos, imprima-os utilizando o comportamento toString() da própria classe.
@@ -21,12 +21,12 @@ public class CarroController {
 
 
         //Após essa impressão, utilize os métodos setters para alterar o estado do objeto na memória RAM
-        carro1.setId(1);
+        carro1.setId(1L);
         carro1.setMarca("Volkswagen");
         carro1.setModelo("Gol GTI 16v");
         carro1.setAnoFabricacao(1998);
 
-        carro2.setId(2);
+        carro2.setId(2L);
         carro2.setMarca("Chevrolet");
         carro2.setModelo("Vectra GSI 16v");
         carro2.setAnoFabricacao(1995);
@@ -49,9 +49,9 @@ public class CarroController {
         //Nos controladores criados no exercício 1 adicione dois tipos de coleções de
         //objetos, List e Map
 
-        Carro carro3 = new Carro(3, "Honda", "Civic SI", 2009);
-        Carro carro4 = new Carro(4, "ford", "fiesta", 1999);
-        Carro carro5 = new Carro(4, "ford", "fiesta", 1999);
+        Carro carro3 = new Carro(3L, "Honda", "Civic SI", 2009);
+        Carro carro4 = new Carro(4L, "ford", "fiesta", 1999);
+        Carro carro5 = new Carro(4L, "ford", "fiesta", 1999);
         List<Carro> carrosList = new ArrayList<>();
         carrosList.add(carro1);
         carrosList.add(carro2);
@@ -72,7 +72,7 @@ public class CarroController {
         System.out.println("\nOrdenando de forma decrescente\n" + carrosList);
 
 
-        Map<Integer, Carro> carrosMap = new HashMap<>();
+        Map<Long, Carro> carrosMap = new HashMap<>();
         carrosMap.put(carro1.getId(), carro1);
         carrosMap.put(carro3.getId(), carro3);
         carrosMap.put(carro3.getId(), carro3);

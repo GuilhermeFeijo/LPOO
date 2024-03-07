@@ -1,7 +1,7 @@
 package model;
 
 public class Carro {
-    private int id;
+    private Long id;
     private String marca;
     private String modelo;
     private int anoFabricacao;
@@ -9,18 +9,18 @@ public class Carro {
     public Carro() {
     }
 
-    public Carro(int id, String marca, String modelo, int anoFabricacao) {
+    public Carro(Long id, String marca, String modelo, int anoFabricacao) {
         this.id = id;
         this.marca = marca;
         this.modelo = modelo;
         this.anoFabricacao = anoFabricacao;
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
