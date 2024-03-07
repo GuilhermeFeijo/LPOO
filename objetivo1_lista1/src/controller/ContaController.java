@@ -11,7 +11,7 @@ public class ContaController {
         //uma com o construtor padrão da classe, outra com um construtor parametrizado que
         //receba como argumento todos os atributos contidos na classe
         Conta conta1 = new Conta();
-        Conta conta2 = new Conta(2, 300);
+        Conta conta2 = new Conta(2L, 300);
 
 
         //Depois de instanciados os objetos, imprima-os utilizando o comportamento toString() da própria classe.
@@ -21,11 +21,11 @@ public class ContaController {
 
 
         //Após essa impressão, utilize os métodos setters para alterar o estado do objeto na memória RAM
-        conta1.setId(1);
+        conta1.setId(1L);
         conta1.deposita(200);
         conta1.atualiza(10);
 
-        conta2.setId(2);
+        conta2.setId(2L);
         conta2.saca(100);
         conta2.atualiza(20);
 
@@ -43,9 +43,9 @@ public class ContaController {
         //Nos controladores criados no exercício 1 adicione dois tipos de coleções de
         //objetos, List e Map
 
-        Conta conta3 = new Conta(3, 600);
-        Conta conta4 = new Conta(4, 400);
-        Conta conta5 = new Conta(4, 400);
+        Conta conta3 = new Conta(3L, 600);
+        Conta conta4 = new Conta(4L, 400);
+        Conta conta5 = new Conta(4L, 400);
         List<Conta> contasList = new ArrayList<>();
         contasList.add(conta1);
         contasList.add(conta2);
@@ -66,7 +66,7 @@ public class ContaController {
         System.out.println("\nOrdenando de forma decrescente\n" + contasList);
 
 
-        Map<Integer, Conta> contasMap = new HashMap<>();
+        Map<Long, Conta> contasMap = new HashMap<>();
         contasMap.put(conta1.getId(), conta1);
         contasMap.put(conta3.getId(), conta3);
         contasMap.put(conta3.getId(), conta3);

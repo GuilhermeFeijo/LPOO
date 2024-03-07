@@ -2,22 +2,22 @@ package model;
 
 public class Conta {
 
-    private int id;
+    private Long id;
     private double saldo;
 
     public Conta() {
     }
 
-    public Conta(int id, double saldo) {
+    public Conta(Long id, double saldo) {
         this.id = id;
         this.saldo = saldo;
     }
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
