@@ -76,7 +76,7 @@ public class ContaController {
 
         System.out.print("\nConta de ID 3 no MAP\n" + contasMap.get(3));
 
-        //Não consegui ordernar o Map, necessário tirar dúvida em aula posteriormente
+        //Não é possível reordenar o MAP pois quebrará o hash
 
     }
 }

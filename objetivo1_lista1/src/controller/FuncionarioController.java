@@ -78,7 +78,7 @@ public class FuncionarioController {
 
         System.out.print("\nFuncionario de ID 3 no MAP\n" + funcionariosMap.get(3));
 
-        //Não consegui ordernar o Map, necessário tirar dúvida em aula posteriormente
+        //Não é possível reordenar o MAP pois quebrará o hash
 
     }
 }
