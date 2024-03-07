@@ -23,9 +23,11 @@ public class ContaController {
         //Após essa impressão, utilize os métodos setters para alterar o estado do objeto na memória RAM
         conta1.setId(1);
         conta1.deposita(200);
+        conta1.atualiza(10);
 
         conta2.setId(2);
         conta2.saca(100);
+        conta2.atualiza(20);
 
 
         //imprima esses objetos novamente, agora utilizando os getters de cada classe.

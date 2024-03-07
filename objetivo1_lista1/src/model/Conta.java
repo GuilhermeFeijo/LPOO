@@ -39,7 +39,7 @@ public class Conta {
 
     public void atualiza(double taxa) {
 
-        this.saldo = this.saldo * (taxa/100);
+        this.saldo += this.saldo * (taxa/100);
     }
 
     @Override
