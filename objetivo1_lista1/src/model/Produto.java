@@ -1,7 +1,7 @@
 package model;
 
 public class Produto {
-    private int id;
+    private Long id;
     private String nome;
     private String descricao;
     private double valor;
@@ -11,7 +11,7 @@ public class Produto {
     public Produto() {
     }
 
-    public Produto(int id, String nome, String descricao, double valor, int estoque) {
+    public Produto(Long id, String nome, String descricao, double valor, int estoque) {
         this.id = id;
         this.nome = nome;
         this.descricao = descricao;
@@ -21,11 +21,11 @@ public class Produto {
 
     //Getters e Setters
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

@@ -11,7 +11,7 @@ public class FuncionarioController {
         //uma com o construtor padrão da classe, outra com um construtor parametrizado que
         //receba como argumento todos os atributos contidos na classe
         Funcionario funcionario1 = new Funcionario();
-        Funcionario funcionario2 = new Funcionario(2, "Jorge", 2100);
+        Funcionario funcionario2 = new Funcionario(2L, "Jorge", 2100);
 
 
         //Depois de instanciados os objetos, imprima-os utilizando o comportamento toString() da própria classe.
@@ -21,11 +21,11 @@ public class FuncionarioController {
 
 
         //Após essa impressão, utilize os métodos setters para alterar o estado do objeto na memória RAM
-        funcionario1.setId(1);
+        funcionario1.setId(1L);
         funcionario1.setNome("Maria");
         funcionario1.setSalario(6800);
 
-        funcionario2.setId(2);
+        funcionario2.setId(2L);
         funcionario2.setNome("Cleber");
         funcionario2.setSalario(3200);
 
@@ -45,9 +45,9 @@ public class FuncionarioController {
         //Nos controladores criados no exercício 1 adicione dois tipos de coleções de
         //objetos, List e Map
 
-        Funcionario funcionario3 = new Funcionario(3, "Marlon", 1800);
-        Funcionario funcionario4 = new Funcionario(4, "João", 2500);
-        Funcionario funcionario5 = new Funcionario(4, "João", 2500);
+        Funcionario funcionario3 = new Funcionario(3L, "Marlon", 1800);
+        Funcionario funcionario4 = new Funcionario(4L, "João", 2500);
+        Funcionario funcionario5 = new Funcionario(4L, "João", 2500);
         List<Funcionario> funcionariosList = new ArrayList<>();
         funcionariosList.add(funcionario1);
         funcionariosList.add(funcionario2);
@@ -68,7 +68,7 @@ public class FuncionarioController {
         System.out.println("\nOrdenando de forma decrescente\n" + funcionariosList);
 
 
-        Map<Integer, Funcionario> funcionariosMap = new HashMap<>();
+        Map<Long, Funcionario> funcionariosMap = new HashMap<>();
         funcionariosMap.put(funcionario1.getId(), funcionario1);
         funcionariosMap.put(funcionario3.getId(), funcionario3);
         funcionariosMap.put(funcionario3.getId(), funcionario3);

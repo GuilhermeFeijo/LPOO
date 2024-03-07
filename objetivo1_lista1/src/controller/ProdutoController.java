@@ -11,7 +11,7 @@ public class ProdutoController {
         //uma com o construtor padrão da classe, outra com um construtor parametrizado que
         //receba como argumento todos os atributos contidos na classe
         Produto produto1 = new Produto();
-        Produto produto2 = new Produto(2, "Mouse", "Aponta as coisas na tela", 40.00,100);
+        Produto produto2 = new Produto(2L, "Mouse", "Aponta as coisas na tela", 40.00,100);
 
 
         //Depois de instanciados os objetos, imprima-os utilizando o comportamento toString() da própria classe.
@@ -21,13 +21,13 @@ public class ProdutoController {
 
 
         //Após essa impressão, utilize os métodos setters para alterar o estado do objeto na memória RAM
-        produto1.setId(1);
+        produto1.setId(1L);
         produto1.setNome("Teclado");
         produto1.setDescricao("Digita as teclas");
         produto1.setValor(40.00);
         produto1.setEstoque(200);
 
-        produto2.setId(2);
+        produto2.setId(2L);
         produto2.setNome("Monitor");
         produto2.setDescricao("Mostra a tela");
         produto2.setValor(400.00);
@@ -54,9 +54,9 @@ public class ProdutoController {
         //Nos controladores criados no exercício 1 adicione dois tipos de coleções de
         //objetos, List e Map
 
-        Produto produto3 = new Produto(3, "Notebook", "Um computador portátil", 3500.00, 10);
-        Produto produto4 = new Produto(4, "Computador", "Um Desktop", 2500.00, 25);
-        Produto produto5 = new Produto(4, "Computador", "Um Desktop", 2500.00, 25);
+        Produto produto3 = new Produto(3L, "Notebook", "Um computador portátil", 3500.00, 10);
+        Produto produto4 = new Produto(4L, "Computador", "Um Desktop", 2500.00, 25);
+        Produto produto5 = new Produto(4L, "Computador", "Um Desktop", 2500.00, 25);
         List<Produto> produtosList = new ArrayList<>();
         produtosList.add(produto1);
         produtosList.add(produto2);
@@ -77,7 +77,7 @@ public class ProdutoController {
         System.out.println("\nOrdenando de forma decrescente\n" + produtosList);
 
 
-        Map<Integer, Produto> produtosMap = new HashMap<>();
+        Map<Long, Produto> produtosMap = new HashMap<>();
         produtosMap.put(produto1.getId(), produto1);
         produtosMap.put(produto3.getId(), produto3);
         produtosMap.put(produto3.getId(), produto3);
