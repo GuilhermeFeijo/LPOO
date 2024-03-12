@@ -1,6 +1,7 @@
 package model;
 
 public class Cliente {
+    private Long id;
     private String cpf;
     private String nome;
     private String sobrenome;
@@ -12,7 +13,8 @@ public class Cliente {
     public Cliente() {
     }
 
-    public Cliente(String cpf, String nome, String sobrenome, String endereco, String cep, String telefone, String email) {
+    public Cliente(Long id, String cpf, String nome, String sobrenome, String endereco, String cep, String telefone, String email) {
+        this.id = id;
         this.cpf = cpf;
         this.nome = nome;
         this.sobrenome = sobrenome;
@@ -20,6 +22,14 @@ public class Cliente {
         this.cep = cep;
         this.telefone = telefone;
         this.email = email;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getCpf() {
@@ -81,7 +91,8 @@ public class Cliente {
     @Override
     public String toString() {
         return "Cliente{" +
-                "cpf='" + cpf + '\'' +
+                "id=" + id +
+                ", cpf='" + cpf + '\'' +
                 ", nome='" + nome + '\'' +
                 ", sobrenome='" + sobrenome + '\'' +
                 ", endereco='" + endereco + '\'' +
