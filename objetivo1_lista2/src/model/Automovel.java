@@ -3,7 +3,7 @@ package model;
 public class Automovel {
     private Long id;
     private String renavan;
-    private String marca;
+    private String placa;
     private String cor;
     private int num_rodas;
     private String combustivel;
@@ -15,10 +15,10 @@ public class Automovel {
     public Automovel() {
     }
 
-    public Automovel(Long id, String renavan, String marca, String cor, int num_rodas, String combustivel, int quilometragem, String chassi, double valor_locacao) {
+    public Automovel(Long id, String renavan, String placa, String cor, int num_rodas, String combustivel, int quilometragem, String chassi, double valor_locacao) {
         this.id = id;
         this.renavan = renavan;
-        this.marca = marca;
+        this.placa = placa;
         this.cor = cor;
         this.num_rodas = num_rodas;
         this.combustivel = combustivel;
@@ -43,12 +43,12 @@ public class Automovel {
         this.renavan = renavan;
     }
 
-    public String getMarca() {
-        return marca;
+    public String getPlaca() {
+        return placa;
     }
 
-    public void setMarca(String marca) {
-        this.marca = marca;
+    public void setPlaca(String marca) {
+        this.placa = marca;
     }
 
     public String getCor() {
@@ -104,7 +104,7 @@ public class Automovel {
         return "Automovel{" +
                 "id=" + id +
                 ", renavan='" + renavan + '\'' +
-                ", marca='" + marca + '\'' +
+                ", marca='" + placa + '\'' +
                 ", cor='" + cor + '\'' +
                 ", num_rodas=" + num_rodas +
                 ", combustivel='" + combustivel + '\'' +

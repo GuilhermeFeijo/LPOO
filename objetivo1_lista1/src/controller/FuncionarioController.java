@@ -70,13 +70,13 @@ public class FuncionarioController {
 
         Map<Long, Funcionario> funcionariosMap = new HashMap<>();
         funcionariosMap.put(funcionario1.getId(), funcionario1);
-        funcionariosMap.put(funcionario3.getId(), funcionario3);
+        funcionariosMap.put(funcionario2.getId(), funcionario2);
         funcionariosMap.put(funcionario3.getId(), funcionario3);
         funcionariosMap.put(funcionario4.getId(), funcionario4);
         funcionariosMap.put(funcionario5.getId(), funcionario5);
         System.out.println("\nMap\n" + funcionariosMap);
 
-        System.out.print("\nFuncionario de ID 3 no MAP\n" + funcionariosMap.get(3));
+        System.out.print("\nFuncionario de ID 3 no MAP\n" + funcionariosMap.get(3L));
 
         //Não é possível reordenar o MAP pois quebrará o hash
 

@@ -68,13 +68,13 @@ public class ContaController {
 
         Map<Long, Conta> contasMap = new HashMap<>();
         contasMap.put(conta1.getId(), conta1);
-        contasMap.put(conta3.getId(), conta3);
+        contasMap.put(conta2.getId(), conta2);
         contasMap.put(conta3.getId(), conta3);
         contasMap.put(conta4.getId(), conta4);
         contasMap.put(conta5.getId(), conta5);
         System.out.println("\nMap\n" + contasMap);
 
-        System.out.print("\nConta de ID 3 no MAP\n" + contasMap.get(3));
+        System.out.print("\nConta de ID 3 no MAP\n" + contasMap.get(3L));
 
         //Não é possível reordenar o MAP pois quebrará o hash
 

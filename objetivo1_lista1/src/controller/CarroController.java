@@ -74,13 +74,13 @@ public class CarroController {
 
         Map<Long, Carro> carrosMap = new HashMap<>();
         carrosMap.put(carro1.getId(), carro1);
-        carrosMap.put(carro3.getId(), carro3);
+        carrosMap.put(carro2.getId(), carro2);
         carrosMap.put(carro3.getId(), carro3);
         carrosMap.put(carro4.getId(), carro4);
         carrosMap.put(carro5.getId(), carro5);
         System.out.println("\nMap\n" + carrosMap);
 
-        System.out.print("\nCarro de ID 3 no MAP\n" + carrosMap.get(3));
+        System.out.print("\nCarro de ID 3 no MAP\n" + carrosMap.get(3L));
 
         //Não é possível reordenar o MAP pois quebrará o hash
 

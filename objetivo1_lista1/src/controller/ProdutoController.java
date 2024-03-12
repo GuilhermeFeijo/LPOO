@@ -79,13 +79,13 @@ public class ProdutoController {
 
         Map<Long, Produto> produtosMap = new HashMap<>();
         produtosMap.put(produto1.getId(), produto1);
-        produtosMap.put(produto3.getId(), produto3);
+        produtosMap.put(produto2.getId(), produto2);
         produtosMap.put(produto3.getId(), produto3);
         produtosMap.put(produto4.getId(), produto4);
         produtosMap.put(produto5.getId(), produto5);
         System.out.println("\nMap\n" + produtosMap);
 
-        System.out.print("\nProduto de ID 3 no MAP\n" + produtosMap.get(3));
+        System.out.print("\nProduto de ID 3 no MAP\n" + produtosMap.get(3L));
 
         //Não é possível reordenar o MAP pois quebrará o hash
 
